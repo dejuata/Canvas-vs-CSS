@@ -1,7 +1,7 @@
 # Canvas-vs-CSS
-Comparativo entre Canvas y CSS
+Comparative between Canvas and CSS
 
-Primero, se muestra el diseño de unos ositos utilizando la etiqueta canvas junto con js.
-Segundo, se muestra los mismos resultados utilizando CSS
+First, it shows the desing of a teddy, using the label Canvas together with JS
+Second, it shows the same results using CSS
 
-La idea es mostrar que con los dos elementos se obtiene el mismo resultado
+The idea is to show that with the two elements is obtained the same result
