@@ -1,0 +1,30 @@
+body{
+	font-family: 'Montserrat', sans-serif;   
+	background-color: #2BB0CD;
+	text-align: center;	
+}
+.titulo{	
+	font-size: 2em;
+	color: #fff;
+}
+.vs{	
+    font-size: 4em;
+    margin: -2px auto;
+    -webkit-text-fill-color: #D9221B;
+    -webkit-text-stroke: 1px #fff; 
+}
+.animales{
+	width: 200px;
+	height: 200px;	
+}
+.show{
+	margin: auto 4em;
+	display: inline-block;
+}
+.design{
+	border-radius: 50%;
+	box-shadow: 0 0 20px -5px #000;	
+	background-color: #3B302A;	
+}
+
+

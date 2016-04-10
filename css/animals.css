@@ -1,0 +1,132 @@
+/*Cuerpo*/
+.ear{
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;	
+	position: absolute;
+}
+.ear-left{
+	margin: 35px 18px;
+}
+.ear-right{
+	margin: 35px 124px;
+}
+.head{	
+	width: 152px;
+	height: 128px;		
+	border-radius: 50%;
+	margin: 45px 24px;
+	position: relative;	
+}
+.face{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+}
+.eye{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;	
+}
+.eye-left{
+	margin: 47px 42px;	
+}
+.eye-right{
+	margin: 47px 96px;
+}
+.nose{
+	width: 20px;
+	height: 14px;
+	border-radius: 50%;
+	margin: 63px 65px;
+	position: absolute;	
+}
+
+/*Oso*/
+.ear-colorOso{
+	background-color: #F5D080;
+	border: 9px solid #935C47;
+}
+.head-colorOso{
+	background-color: #935C47;
+}
+.face-colorOso{
+	background-color: #F5D080;
+}
+.face-left{
+	margin: 26px 25px;
+}
+.face-right{
+	margin: 26px 74px;
+}
+.horn{
+	width: 125px;
+	height: 74px;
+	border-radius: 50%;
+	position: absolute;
+	margin: 46px 13px;	
+}
+.eye-color{
+	background-color: #532C27;
+}
+.nose-color{
+	background-color: #532C27;
+}
+
+/*Panda*/
+.ear-colorPanda{
+	background-color: #1D1D1F;
+	border: 9px solid #1D1D1F;	
+}
+.head-colorPanda{
+	background-color: #D1D2D4;
+}
+.face-colorPanda{
+	background-color: #3A3A3C;	
+}
+.face-leftPanda{
+	margin: 26px 15px;
+}
+.face-rightPanda{
+	margin: 26px 85px;
+}
+.eye-colorPanda{
+	background-color: #1D1D1F;
+}
+.nose-colorPanda{
+	background-color: #1D1D1F;
+}
+.eye-leftPanda{
+	margin: 20px 25px;	
+}
+.eye-rightPanda{
+	margin: 20px 15px;
+}
+
+/*Oso Pardo*/
+.ear-colorPardo{
+	background-color: #57281E;
+	border: 9px solid #57281E;	
+}
+.head-colorPardo{
+	background-color: #824533;
+}
+.face-colorPardo{
+	background-color: #824533;	
+}
+.eye-colorPardo{
+	background-color: #40130E;
+}
+.nose-colorPardo{
+	background-color: #40130E;
+}
+.hornPardo{
+	width: 40px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	margin: 58px 55px;
+	background-color: #fff;	
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />		
+		<title>Canvas vs CSS</title>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/animals.css">		
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1 class="titulo">CANVAS</h1>
+		
+		<div class="quitar-top">	
+			<div class="animales show design">
+				<canvas width="200" height="200" id="oso" class="canvas"></canvas>
+				<script>
+				dibujar("oso",50,60,1,1,25,9,"#935C47","#F5D080");//Dibujar oreja izquierda
+				dibujar("oso",150,60,1,1,25,9,"#935C47","#F5D080");//Dibujar oreja derecha
+				dibujar("oso",105,135,0.95,0.8,80,0,"#935C47","#935C47");//Dibujar cabeza
+				dibujar("oso",125,95,1,1,25,0,"#F5D080","#F5D080");//Dibujar cara
+				dibujar("oso",75,95,1,1,25,0,"#F5D080","#F5D080");//Dibujar cara
+				dibujar("oso",80,170,1.25,0.74,50,0,"#F5D080","#F5D080");//Dibujar cara				
+				dibujar("oso",128,95,1,1,5,0,"#532C27","#532C27");//Dibujar pupilas
+				dibujar("oso",72,95,1,1,5,0,"#532C27","#532C27");//Dibujar pupilas
+				dibujar("oso",100,160,1,0.7,10,0,"#532C27","#532C27");//Dibujar nariz
+				</script>
+			</div>
+			<div class="animales show design">
+				<canvas width="200" height="200" id="panda" class="canvas"></canvas>
+				<script>
+				dibujar("panda",50,60,1,1,25,9,"#1D1D1F","#1D1D1F");//Dibujar oreja izquierda
+				dibujar("panda",150,60,1,1,25,9,"#1D1D1F","#1D1D1F");//Dibujar oreja derecha
+				dibujar("panda",105,135,0.95,0.8,80,0,"#D1D2D4","#D1D2D4");//Dibujar cabeza
+				dibujar("panda",136,95,1,1,25,0,"#3A3A3C","#3A3A3C");//Dibujar cara
+				dibujar("panda",64,95,1,1,25,0,"#3A3A3C","#3A3A3C");//Dibujar cara			
+				dibujar("panda",128,95,1,1,5,0,"#1D1D1F","#1D1D1F");//Dibujar pupilas
+				dibujar("panda",72,95,1,1,5,0,"#1D1D1F","#1D1D1F");//Dibujar pupilas
+				dibujar("panda",100,160,1,0.7,10,0,"#1D1D1F","#1D1D1F");//Dibujar nariz
+				</script>
+			</div>
+			<div class="animales show design">
+				<canvas width="200" height="200" id="osoPardo" class="canvas"></canvas>
+				<script>
+				dibujar("osoPardo",50,60,1,1,25,9,"#57281E","#57281E");//Dibujar oreja izquierda
+				dibujar("osoPardo",150,60,1,1,25,9,"#57281E","#57281E");//Dibujar oreja derecha
+				dibujar("osoPardo",105,135,0.95,0.8,80,0,"#824533","#824533");//Dibujar cabeza					
+				dibujar("osoPardo",125,108,0.8,1.2,25,0,"#FEFEFC","#FEFEFC");//Dibujar cara
+				dibujar("osoPardo",128,95,1,1,5,0,"#40130E","#40130E");//Dibujar pupilas
+				dibujar("osoPardo",72,95,1,1,5,0,"#40130E","#40130E");//Dibujar pupilas
+				dibujar("osoPardo",100,160,1,0.7,10,0,"#5B241F","#5B241F");//Dibujar nariz
+				</script>
+			</div>		
+		</div>
+
+		<h1 class="vs">VS</h1>	
+
+		<div class="quitar-top">
+
+			<div class="animales show design">
+				<div class="ear ear-left ear-colorOso"></div>
+				<div class="ear ear-right ear-colorOso"></div>
+				<div class="head head-colorOso">
+					<div class="horn face-colorOso"></div>					
+					<div class="face face-left face-colorOso"></div>
+					<div class="face face-right face-colorOso"></div>
+					<div class="eye eye-left eye-color"></div>
+					<div class="eye eye-right eye-color"></div>					
+					<div class="nose nose-color"></div>					
+				</div>
+			</div>
+
+			<div class="animales show design">
+				<div class="ear ear-left ear-colorPanda"></div>
+				<div class="ear ear-right ear-colorPanda"></div>
+				<div class="head head-colorPanda">
+					<div class="face face-leftPanda face-colorPanda"></div>
+					<div class="face face-rightPanda face-colorPanda"></div>
+					<div class="eye eye-left eye-colorPanda"></div>
+					<div class="eye eye-right eye-colorPanda"></div>
+					<div class="nose nose-colorPanda"></div>
+				</div>				
+			</div>	
+
+			<div class="animales show design">
+				<div class="ear ear-left ear-colorPardo"></div>
+				<div class="ear ear-right ear-colorPardo"></div>
+				<div class="head head-colorPardo">				
+				<div class="eye eye-left eye-colorPardo"></div>
+				<div class="eye eye-right eye-colorPardo"></div>				
+				<div class="hornPardo"></div>	
+				<div class="nose nose-colorPardo"></div>
+			</div>	
+		</div>
+		
+		<h1 class="titulo">CSS</h1>	
+
+				
+	</body>
+	
+</html>
